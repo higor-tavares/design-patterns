@@ -14,6 +14,6 @@ class WindowManagerImpl : WindowManager() {
     }
 
     override fun newMethod() {
-        TODO("Not yet implemented")
+        println("You called a new method bro!")
     }
 }

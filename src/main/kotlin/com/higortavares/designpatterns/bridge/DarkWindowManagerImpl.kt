@@ -14,6 +14,6 @@ class DarkWindowManagerImpl: WindowManager() {
     }
 
     override fun newMethod() {
-        TODO("Not yet implemented")
+        //Do nothing
     }
 }

@@ -15,4 +15,16 @@ class BridgeTest {
         view.draw()
         view.reset()
     }
+    @Test
+    fun testWindowInAnotherView() {
+        val view : View = AnotherConcreteView(WindowManagerImpl())
+        view.draw()
+        view.reset()
+    }
+    @Test
+    fun testDarkWindowInAnotherView() {
+        val view : View = AnotherConcreteView(DarkWindowManagerImpl())
+        view.draw()
+        view.reset()
+    }
 }
